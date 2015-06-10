@@ -26,9 +26,13 @@ $(".paging").paging({
 **Type:** String
 **Default:** None
 ```javascript
-  url: "www.mysite.com/list?page="
+  url: "/list?page="
 ```
-The URL of the page to be loaded including the request string.  The actual page number for each link will be appended to the end of this.  Page numders are zero based so a link showing "1" will request page "0".
+or
+```javascript
+  url: "http://www.mysite.com/list?page="
+```
+A relative or full URL of the page to be loaded including the request string.  The actual page number for each link will be appended to the end of this.  Page numders are zero based so a link showing "1" will request page "0".
 ### currentPage
 **Type:** Integer
 **Default:** 1
