@@ -23,7 +23,9 @@ $(".paging").paging({
 
 ### url
 *Required*
+
 **Type:** String
+
 **Default:** None
 ```javascript
   url: "http://www.mysite.com/list?page="
@@ -38,7 +40,9 @@ A relative or full URL of the page to be loaded including the request string.  I
 The URL can be full (`http://www.mysite.com/list/^/index.html`) or relative (`list/^/index.html`).
 ### currentPage
 **Type:** Integer
+
 **Default:** 1
+
 ```javascript
   currentPage: parseInt($("#currentPage").val())
 ```
@@ -47,7 +51,9 @@ The current page number.  This number should be the actual page number so when t
 This value can be a variable but the best way is probably to store the page number in a hidden input when generating the page.
 ### pages
 **Type:** Integer
+
 **Default:** 1
+
 ```javascript
   pages: $("#pages").val()
 ```
@@ -56,7 +62,9 @@ The total number of pages available.  This number should be the actual page numb
 This value can be a variable but the best way is probably to store the page number in a hidden input when generating the page.
 ### float
 **Type:** String
+
 **Default:** "right"
+
 ```javascript
   "float": "right"
 ```
