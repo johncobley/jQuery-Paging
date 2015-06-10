@@ -70,7 +70,12 @@
                         addLi(ul, last, pages);
                     }
                     $this.find("li").click(function () {
-                        document.location = settings.url + (parseInt($(this).data("paging").page) - 1);
+                        var url = settings.url;
+                        if (url.indexOf('^') > -1)
+                            url = url.replace("^", (parseInt($(this).data("paging").page) - 1));
+                        else
+                            url = settings.url + (parseInt($(this).data("paging").page) - 1);
+                        document.location = url;
                     });
                 }
                 methods.option.call($this, settings);
