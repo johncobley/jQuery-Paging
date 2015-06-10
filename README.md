@@ -34,6 +34,8 @@ or
 ```
 
 A relative or full URL of the page to be loaded including the request string.  If the plugin finds a carat symbol ("^") in the URL it will be replaced with the page number otherwise it will be placed at the end of the URL.  Page numbers are zero based so a link showing "1" will request page "0".
+
+The URL can be full (`http://www.mysite.com/list/^/index.html`) or relative (`list/^/index.html`).
 ### currentPage
 **Type:** Integer
 **Default:** 1
