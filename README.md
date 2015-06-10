@@ -1,7 +1,7 @@
 # jQuery-Paging
 A jQuery based plugin that displays a list of clickable links that can be used to navigate across pages.
 
-This project requires jQuery and the jQuery-UI CSS file
+This project requires jQuery and the jQuery-UI CSS file.
 
 ## Example Usage:
 
