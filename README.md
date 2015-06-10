@@ -26,13 +26,14 @@ $(".paging").paging({
 **Type:** String
 **Default:** None
 ```javascript
-  url: "/list?page="
+  url: "http://www.mysite.com/list?page="
 ```
 or
 ```javascript
-  url: "http://www.mysite.com/list?page="
+  url: "http://www.mysite.com/list/^/index.html"
 ```
-A relative or full URL of the page to be loaded including the request string.  The actual page number for each link will be appended to the end of this.  Page numders are zero based so a link showing "1" will request page "0".
+
+A relative or full URL of the page to be loaded including the request string.  If the plugin finds a carat symbol ("^") in the URL it will be replaced with the page number otherwise it will be placed at the end of the URL.  Page numbers are zero based so a link showing "1" will request page "0".
 ### currentPage
 **Type:** Integer
 **Default:** 1
