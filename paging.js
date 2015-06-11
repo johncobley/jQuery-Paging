@@ -1,4 +1,14 @@
-﻿(function ($) {
+﻿/****************************************************************
+ * jQuery Paging
+ * -----------------------------------------
+ * Author: John Cobley
+ * -----------------------------------------
+ * A simple jQuery based plugin that displays a list of clickable 
+ * links that can be used to navigate across pages.
+ *
+ ****************************************************************/ 
+
+(function ($) {
     var methods = {
         init: function (options) {
             return this.each(function () {
