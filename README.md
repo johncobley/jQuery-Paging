@@ -13,7 +13,7 @@ This project requires jQuery and the jQuery-UI CSS file.
 ```
 ### Javascript:
 ```javascript
-$(".paging").paging({
+$("#paging").paging({
     url: "www.mysite.com/list?page=",
     currentPage: parseInt($("#currentPage").val()),
     pages: $("#pages").val()
