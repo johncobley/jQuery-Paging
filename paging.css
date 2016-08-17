@@ -16,3 +16,8 @@ div.pagingList {
             cursor: pointer;
             margin: 0;
         }
+
+            div.pagingList ul li.current {
+                background-color:#808080;
+                color:white;
+            }
